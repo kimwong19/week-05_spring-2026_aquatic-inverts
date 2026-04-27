@@ -3,7 +3,13 @@ title: "Week 5: aquatic invertebrates"
 subtitle: "Key"
 date: "2026-04-27"
 author: "insert your name here"
-format: pdf
+format: 
+  pdf:
+    include-in-header: 
+       text: |
+         \usepackage{fvextra}
+         \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+         \DefineVerbatimEnvironment{OutputCode}{Verbatim}{breaklines,commandchars=\\\{\}}
 execute:
   message: false
   warning: false
