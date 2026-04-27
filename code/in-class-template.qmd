@@ -1,0 +1,6 @@
+---
+title: "In-class template"
+author: "Kimberly Wong"
+format: pdf
+---
+
